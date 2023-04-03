@@ -10,6 +10,3 @@ def filters(file, cmd, value):
         return sorted(file, reverse=reverse)
     if cmd == 'limit':
         return [i for i in file[:int(value)]]
-
-#
-# print(filters(cmd='filter', value='GET', file='"'))
